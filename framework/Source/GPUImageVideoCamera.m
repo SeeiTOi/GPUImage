@@ -608,6 +608,8 @@ void setColorConversion709( GLfloat conversionMatrix[9] )
 
 - (void)processVideoSampleBuffer:(CMSampleBufferRef)sampleBuffer;
 {
+    NSLog(@"DIMITAR: PROCESSING VIDEO SAMPLE BUFFER")
+    
     if (capturePaused)
     {
         return;
